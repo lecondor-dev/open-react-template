@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     experimental: {
-      turbo: false, // Disable Turbopack
+      turbo: {
+        enabled: false, // Disable Turbopack
+      },
     },
   };
   
